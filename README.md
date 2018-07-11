@@ -1,1 +1,22 @@
 # ARNEKT-IECSIL
+Information Extractor for Conversational Systems in Indian Languages (IECSIL)
+
+Natural Language Processing which branched as a subfield of Artificial Intelligence and Linguistics to deal with text data, that has been proven to be the leading form of generated datum amongst others in today's digital era, has evolved consistently from the time of its origin. Holding a place in various applications that utilize text datum, Information Extraction (IE) is one such area under constant research. Tremendous growth has been influenced in this area, by having applications in information search, question answering, document summarization and etc., to extract hidden information from text datum. With the inclusion of polysemy, ambiguity and unpredictability in natural text this process becomes a tedious task to handle. This is when the need to move from rule based approach to statistical approach came into picture.
+
+Named Entity Recognition (NER) which is a statistical approach and subtask of Information Extraction (IE), was put forward as part of MUC Conference dated late 1970s. Being the subtask of Information Extraction, the purpose behind the usage of NER is to identify and classify the key words from the natural language digital texts. Key words signifies the contextual terms that conveys meaning of the actual sentence. These key words are referred to as entities (Eg: names of person, place, location, temporals and number expression) in NER, which first needs to be identified and then classified into their respective categories. These entities in turn hold a relationship amongst each other, such as Person and Organization with the relation 'works at' or 'owns', Person and Location with the relation 'lives at' and etc. Relation Extraction (RE) is the very next useful step in IE after NER. To be noted these relations would change from language to language and hence is a language dependent process.
+
+By getting to know the basic facts and usage of IE with NER and RE as its key factors, it is necessary to know its efficacy in different languages. It is well known that IE works considerably well with English language from applications like Google search, frameworks like Stanford CoreNLP, OpenNLP and many more. The same does not hold well for Indian Languages due to its morphologically rich structure and agglutinative nature. The usage of inflectional words which are built-in the actual contextual words or phrases would make it difficult to extract the entity of interest. A single word or phrase would incorporate multiple terminologies within it such as the gender, tense and the actual keyword. Such complexities would make the process of Information Extraction even more wearisome when dealt with Indian Languages.
+
+The above facets has eventually driven us to conduct a track ARNEKT - Information Extractor for Conversational Systems in Indian Languages (ARNEKT-IECSIL) in Forum for Information Retrieval and Evaluation (FIRE 2018) . The motive of this track would be to come up with a language independent model or framework that would support all Indian Languages in extracting information from the same. This would not only prove beneficial for IE but would also serve as a necessary block in other applications like Chat-bots, Personal assistance systems, Coreference resolution and other text classification tasks.
+
+Motivated by the need of Information Extractor described above, we have the following two tasks:
+# Task A : Named Entity Recognition (NER)
+Corpora for five Indian languages (Hindi, Tamil, Malayalam, Telugu and Kannada) would be provided. Task A is to identify and classify the named entities to one of the many classes.
+
+# Task B : Relation Extraction (RE)
+Continuation to Task A, corpora with named entities for five Indian languages (Hindi, Tamil, Malayalam, Telugu and Kannada) would be provided. Task B is to extract the relation amongst the entities provided.
+Note :
+
+It is not mandatory for participants to participate in all the languages and also in both the sub-tasks, but the final ranking would be based on the average of system performance on all five languages. For more details kindly refer Evaluation.
+
+#### Participate in ARNEKT-IECSIL 2018 shared task to claim your chance of glory – the best people will be shortlisted for an interview process with ARNEKT Solutions Pvt. Ltd, Pune. To top it up, the top three teams would take exciting prizes with them and all the participants will be awarded with certificates.
